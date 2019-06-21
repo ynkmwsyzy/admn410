@@ -1,0 +1,287 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.background-media, .background-overlay {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    bottom: 0;
+}
+.background-media{
+    width: 100%;
+    height:600px;
+    background-image: url(banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 0 0%;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.active{
+    background-color: #333;
+    border-radius: 4px;
+}
+.clear_both{
+    clear: both;
+    overflow: hidden;
+}
+.cell{
+    width: 80%;
+    margin: 0 auto;
+}
+.wf-wrap{
+    width: 80%;
+    margin: 0 auto;
+}
+.wf-td{
+    width: 522px;
+    margin-top: 35px;
+    line-height: 56px;
+}
+.wf-td ul>li{
+    list-style: none;
+}
+.wf-td ul>li a{
+    color: #fff;
+    display: inline-block;
+    text-decoration: none;
+    padding: 0 10px;
+}
+.mainmenu{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+.banner .cell{
+    padding: 60px 20px;
+}
+.banner .cell h1{
+    line-height: 56px;
+    padding: 10px 0;
+}
+.banner .cell h4{
+    line-height: 56px;
+    padding: 15px;
+}
+.banner .cell h3{
+    line-height: 56px;
+}
+.banner .cell p{
+    line-height: 36px;
+}
+.index_body{
+    background: #fff;
+    padding-top: 60px;
+}
+
+.index_body .our p{
+    font-size: 14px;
+  line-height: 36px;
+}
+.footer{
+    width: 100%;
+    height: 60px;
+    background-color: #333;
+}
+
+.footer .copyright p{
+   text-align: center;
+    line-height: 60px;
+    color: #fff;
+}
+
+.employees_body{
+    background-color: #fff;
+    margin-top: 80px;
+}
+.employees_body h1{
+   padding: 20px 0;
+    text-align: center;
+}
+.team_box{
+    width: 260px;
+    height: 300px;
+    margin-right: 8px;
+}
+.team_box img{
+    width: 260px;
+    height: 200px;
+}
+.team_box h4,.team_box p{
+    text-align: center;
+}
+
+/*policies*/
+.policies{
+    margin-top: 80px;
+}
+.policies h1{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.cell .box{
+    background-color: #efefef;
+    width: 500px;
+    border-radius: 0 0 8px 8px;
+    margin-right: 38px;
+    margin-bottom: 30px;
+}
+.cell .box p{
+    line-height: 42px;
+    text-align: center;
+}
+.cell .box img{
+    width: 500px;
+    height: 320px;
+}
+
+.contact {
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+.contact h1{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.contact-right{
+    width: 60%;
+}
+.contact input[type="text"], .contact input[type="email"] {
+    width: 47%;
+    padding:5px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #000;
+    margin: 10px 10px 10px 0;
+    color: #000;
+    outline: none;
+    letter-spacing: 1px;
+}
+.contact textarea {
+    width: 96.3%;
+    border: none;
+    border-bottom: 1px solid #000;
+    resize: none;
+    padding: 5px;
+    height: 86px;
+    margin-top: 10px;
+    letter-spacing: 1px;
+    outline: none;
+}
+
+.contact input[type="submit"] {
+    background: #ff3535;
+    padding: 12px 50px;
+    outline: none;
+    margin-top: 20px;
+    color: #fff;
+    border: none;
+    letter-spacing: 1px;
+    font-size: 16px;
+}
+
+.address h4, .phone h4, .email h4 {
+    margin-bottom: 10px;
+    color: #00cdc1;
+    font-weight: 600;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.contact-left{
+    width: 38%;
+    margin-top: 30px;
+}
+.contact-left>div{
+    margin-bottom:20px;
+}
+.button{
+    margin-top: 80px;
+}
+.button a{
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 35px;
+    background-color: #333;
+    border-radius: 8px;
+}
+.show{
+    background-color: #ff3535 !important;
+}
+.products{
+    margin-top: 40px;
+}
+.products .cell{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.box1{
+    width: 300px;
+    margin-right: 58px;
+}
+
+.box_img{
+    width: 300px;
+    height: 240px;
+    border-radius: 50%;
+    text-align: center;
+}
+.box_img img{
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+
+}
+fieldset {
+    width: 240px;
+    padding: 30px;
+    position: relative;
+    margin: 20px auto 0;
+    border: 2px solid rgba(179, 177, 177, 0.18);
+    line-height: 20px;
+    color: #999;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+fieldset legend {
+    font-size: 30px;
+    color: #212121;
+    margin: 0;
+    font-weight: 600;
+    border-bottom: none;
+    font-family: 'Lato', sans-serif;
+}
+.p{
+    padding-bottom: 20px;
+}
+.p span{
+    display: inline-block;
+    font-size: 18px;
+    line-height: 26px;
+    color: #463006;
+}
+.p p{
+    font-size: 14px;
+    line-height: 26px;
+}
+
+.p ul li{
+    font-size: 14px;
+    line-height: 26px;
+}
+
+
+
+
+
+
